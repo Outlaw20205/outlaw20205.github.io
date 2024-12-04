@@ -105,7 +105,9 @@
             echo "</ol>";
 
         ?>
-
+        <form action="index.html" method="POST">
+            <input type="submit" value = "Home">
+        </form>
     </body>
     <footer class= "w3-center w3-monospace w3-dark-grey w3-container">
         <?php
