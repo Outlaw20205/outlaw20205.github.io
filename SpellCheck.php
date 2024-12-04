@@ -70,7 +70,7 @@
                 return $spellCheckArr[$dictWordLen][$inputLen];
             }
 
-            $wordCheck = $_POST["input"];
+            $wordCheck = $_GET["input"];
             $checked = array();
             $dictionary = fopen("dictionary.txt", "r");
 
@@ -105,7 +105,7 @@
             echo "</ol>";
 
         ?>
-        <form action="index.html" method="POST">
+        <form action="index.html" method="get">
             <input type="submit" value = "Home">
         </form>
     </body>
