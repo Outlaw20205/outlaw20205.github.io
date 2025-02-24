@@ -1,5 +1,5 @@
 {
-    "name": "Paul's portfolio",
+    "name": "Ethan's portfolio",
     "icon": "./assets/images/home/paul.png",
 
     "pages": [
@@ -11,27 +11,15 @@
         },
         {
             "icon": "📖",
-            "name": "Blogs",
-            "link": "/blogs",
-            "content": "content/blogs.html"
-        },
-        {
-            "icon": "bi bi-suitcase-lg-fill",
-            "name": "Work Experience",
-            "link": "/experience",
-            "content": "content/experience.md"
-        },
-        {
-            "icon": "🔥",
-            "name": "Open source",
-            "link": "/open-source",
+            "name": "Projects",
+            "link": "/projects",
             "content": "content/projects.html"
         },
         {
-            "icon": "✨",
-            "name": "skills",
-            "link": "/skills",
-            "content": "content/skills.md"
+            "icon": "bi bi-suitcase-lg-fill",
+            "name": "Hobbies",
+            "link": "/hobbies",
+            "content": "content/hobbies.md"
         },
         {
             "icon": "✉️",
