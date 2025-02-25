@@ -5,14 +5,14 @@ I'm Ethan Lawrence, full time college student striving to be a game dev.
 Here's take this free SaaS template for you [This is a link](https://saasy-dark.netlify.app/)
 
 
-### Also please have a look at this beautiful picture
+### Picture of myself during a track day event at World Wide Technology Raceway
 
-![this is an image](./assets/images/home/forest.jpg)
+![Myself in a Porsche GT4 Cayman](./assets/images/home/pfp.jpg)
 
 My hobbies include:
 
 * Watching and attending motor racing events.
-* Just like real life racing, I compete in sim racing events. 
+* Amateur competition in sim racing events.
 * Cheering on my hometown teams like the Cardinals and Blues.
 * Building literally anything; LEGOs, computers, cars, you name it.
 * Watching anime and reading manga.
