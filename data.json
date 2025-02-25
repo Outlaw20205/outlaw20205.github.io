@@ -1,6 +1,7 @@
 {
     "name": "Ethan's portfolio",
-
+    "icon": "bi bi-house",
+    
     "pages": [
         {
             "icon": "bi bi-house",

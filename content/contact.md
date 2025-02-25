@@ -1,3 +1,3 @@
 ## Contact
 
-**I can be contacted via this form: [Contact me](https://tally.so/r/woO0Kx)**
+**If you would like to contact me, please email me at: etlawre@siue.edu**
