@@ -10,16 +10,16 @@
             "content": "content/about.md"
         },
         {
-            "icon": "📖",
+            "icon": "bi bi-backpack3",
             "name": "Projects",
             "link": "/projects",
             "content": "content/projects.html"
         },
         {
-            "icon": "bi bi-suitcase-lg-fill",
+            "icon": "bi bi-journals",
             "name": "Hobbies",
             "link": "/hobbies",
-            "content": "content/hobbies.md"
+            "content": "content/hobbies.html"
         },
         {
             "icon": "✉️",
