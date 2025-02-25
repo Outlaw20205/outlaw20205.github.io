@@ -2,7 +2,7 @@
 
 I'm Ethan Lawrence, full time college student striving to be a game dev. 
 
-### Picture of myself during a track day event at World Wide Technology Raceway
+Picture of myself during a track day event at World Wide Technology Raceway
 
 ![Myself in a Porsche GT4 Cayman](./assets/images/home/pfp.jpg)
 
