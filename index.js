@@ -58,7 +58,7 @@ async function fetchContent(path){
 fetchDB().then((data) => {
     let x = data['pages']
     for (let i = 0; i < 4; i++){
-        buildSideBar(x.icon, x.name, x.link, x.content)
+        buildSideBar(x[i].icon, x[i].name, x[i].link, x[i].content)
     }
     dataCache = data
     loadSearchResults(data['pages'])
