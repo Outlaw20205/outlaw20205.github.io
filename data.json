@@ -26,6 +26,12 @@
             "name": "Contact",
             "link": "/contact",
             "content": "content/contact.md"
+        },
+        {
+            "icon": "",
+            "name": "Motorsports",
+            "link": "/hobbies/motorsports",
+            "content": "content/hobbies/motorsports.md"
         }
     ]
 
