@@ -7,43 +7,37 @@
             "icon": "bi bi-house",
             "name": "About",
             "link": "/about",
-            "content": "content/about.md",
-            "pass": false
+            "content": "content/about.md"
         },
         {
             "icon": "bi bi-journals",
             "name": "Projects",
             "link": "/projects",
-            "content": "content/projects.html",
-            "pass": false
+            "content": "content/projects.html"
         },
         {
             "icon": "bi bi-backpack3",
             "name": "Hobbies",
             "link": "/hobbies",
-            "content": "content/hobbies.html",
-            "pass": false
+            "content": "content/hobbies.html"
         },
         {
             "icon": "bi bi-postcard-fill",
             "name": "Contact",
             "link": "/contact",
-            "content": "content/contact.md",
-            "pass": false
+            "content": "content/contact.md"
         },
         {
             "icon": "",
             "name": "Motorsports",
             "link": "/hobbies/motorsports",
-            "content": "content/hobbies/motorsports.md",
-            "pass": true
+            "content": "content/hobbies/motorsports.md"
         },
         {
             "icon": "",
             "name": "Sim Racing",
             "link": "/hobbies/simracing",
-            "content": "content/hobbies/sim_racing.md",
-            "pass": true
+            "content": "content/hobbies/sim_racing.md"
         }
     ]
 
