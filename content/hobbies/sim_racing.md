@@ -11,6 +11,6 @@ Daytona Truck Win
 
 I didn't mention this on the main page but I like making liveries for games I play as well. I've recreated real life liveries of vehicles but I've also made my own designs.
 
-![Southern Pacific Livery for Minecraft](./assets/iamges/hobbies/2024-03-30.png)
+![Southern Pacific Livery for Minecraft](./assets/images/hobbies/2024-03-30.png)
 ![Dallara P217 LMP2](./assets/images/hobbies/374275_1.jpg)
 ![Toyota Tundra NASCAR Truck](./assets/images/hobbies/595324_1.jpg)
