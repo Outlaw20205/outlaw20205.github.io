@@ -37,6 +37,13 @@
             "link": "/hobbies/motorsports",
             "content": "content/hobbies/motorsports.md",
             "pass": true
+        },
+        {
+            "icon": "",
+            "name": "Sim Racing",
+            "link": "/hobbies/simracing",
+            "content": "content/hobbies/sim_racing.md",
+            "pass": true
         }
     ]
 
