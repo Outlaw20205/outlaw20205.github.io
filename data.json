@@ -7,31 +7,36 @@
             "icon": "bi bi-house",
             "name": "About",
             "link": "/about",
-            "content": "content/about.md"
+            "content": "content/about.md",
+            "pass": false
         },
         {
             "icon": "bi bi-journals",
             "name": "Projects",
             "link": "/projects",
-            "content": "content/projects.html"
+            "content": "content/projects.html",
+            "pass": false
         },
         {
             "icon": "bi bi-backpack3",
             "name": "Hobbies",
             "link": "/hobbies",
-            "content": "content/hobbies.html"
+            "content": "content/hobbies.html",
+            "pass": false
         },
         {
             "icon": "bi bi-postcard-fill",
             "name": "Contact",
             "link": "/contact",
-            "content": "content/contact.md"
+            "content": "content/contact.md",
+            "pass": false
         },
         {
             "icon": "",
             "name": "Motorsports",
             "link": "/hobbies/motorsports",
-            "content": "content/hobbies/motorsports.md"
+            "content": "content/hobbies/motorsports.md",
+            "pass": true
         }
     ]
 

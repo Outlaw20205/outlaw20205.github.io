@@ -56,9 +56,8 @@ async function fetchContent(path){
 
 
 fetchDB().then((data) => {
-    let x = data['pages']
-    for (let i = 0; i < 4; i++){
-        buildSideBar(x[i].icon, x[i].name, x[i].link, x[i].content)
+    for (let x of data['pages']){
+        buildSideBar(x.icon, x.name, x.link, x.content, x.pass)
     }
     dataCache = data
     loadSearchResults(data['pages'])
@@ -66,7 +65,7 @@ fetchDB().then((data) => {
 })
 
 
-function buildSideBar(icon, name, link, content){
+function buildSideBar(icon, name, link, content, pass){
 
     let iconElement = ""
     
@@ -79,13 +78,14 @@ function buildSideBar(icon, name, link, content){
         iconElement = `<i class="${icon ?? "bi bi-file-earmark"}"></i>` // bootstrap icon class
     }
 
-
+    if (pass == false) {
     sideBarContent.innerHTML += `
         <button onclick="updateContent('${content}', '${icon}', '${name}', '${link}')" id="${link}" class="page-link tw-text-base tw-flex tw-flex-gap-1">
             ${iconElement}
             <div class="">${name}</div>
         </button>
     `
+    }
 }
 
 async function updateContent(path, icon, title, link){
