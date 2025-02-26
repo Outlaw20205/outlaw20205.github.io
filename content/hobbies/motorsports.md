@@ -2,7 +2,14 @@
 
 I've attend roughly 10 motor racing events in person but I've watched hundreds of them throughout my life. My favorite series to watch are NASCAR, IndyCar, IMSA, WEC and F1. I do enjoy watching smaller local series as well. When I'm at the track; I love walking the entire facility, exploring the garages, taking pictures of the cars and of course watching the races. If I every have the opportunity, I would love to compete in a real race.
 
-![Huracan STO Evo2](./assets/images/hobbies/IMG_1025.jpg)
-![Aston Martin GTD](./assets/images/hobbies/Aston_Indy.png)
+![Porsche 992 GTD](./assets/images/hobbies/IMG_1029.jpg)
+![Aston Martin GTD](./assets/images/hobbies/Aston_Indy.jpg)
 ![Ford Capri Rally Car](./assets/images/hobbies/IMG_1966.jpg)
 ![Honda NSX GTD](./assets/images/hobbies/IMG_1028.jpg)
+![Road America T5](./assets/images/hobbies/IMG_1361.jpg)
+![Road America T4](./assets/images/hobbies/IMG_0826.jpg)
+![Indy Pro 2000](./assets/images/hobbies/IMG_1359.jpg)
+![Subaru Rally Car](./assets/images/hobbies/IMG_1962.jpg)
+![Another Subaru Rally Car](./assets/images/hobbies/IMG_1954.jpg)
+![Rally car on jacks](./assets/images/hobbies/IMG_1967.jpg)
+![Classic Indycar](./assets/images/hobbies/IMG_1373.jpg)
