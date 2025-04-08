@@ -24,7 +24,7 @@ const md = window.markdownit({
 md.use(centerImagesPlugin)
 md.use(externalLinksPlugin)
 
-let dataCache = {'pages': []}
+let dataCache = {'pages': [], 'other' : []}
 
 /**
  * Fetches the json db
