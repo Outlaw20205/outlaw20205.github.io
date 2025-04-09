@@ -26,21 +26,18 @@
             "name": "Contact",
             "link": "/contact",
             "content": "content/contact.md"
+        },
+        {
+            "icon": "",
+            "name": "Motorsports",
+            "link": "/hobbies/motorsports",
+            "content": "content/hobbies/motorsports.md"
+        },
+        {
+            "icon": "",
+            "name": "Sim Racing",
+            "link": "/hobbies/simracing",
+            "content": "content/hobbies/sim_racing.md"
         }
-    ],
-    "others" : [
-            {
-                "icon": "",
-                "name": "Motorsports",
-                "link": "/hobbies/motorsports",
-                "content": "content/hobbies/motorsports.md"
-            },
-            {
-                "icon": "",
-                "name": "Sim Racing",
-                "link": "/hobbies/simracing",
-                "content": "content/hobbies/sim_racing.md"
-            }
     ]
-
 }

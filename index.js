@@ -24,7 +24,7 @@ const md = window.markdownit({
 md.use(centerImagesPlugin)
 md.use(externalLinksPlugin)
 
-let dataCache = {'pages': [], 'others': []}
+let dataCache = {'pages': []}
 
 /**
  * Fetches the json db
@@ -78,12 +78,15 @@ function buildSideBar(icon, name, link, content){
         iconElement = `<i class="${icon ?? "bi bi-file-earmark"}"></i>` // bootstrap icon class
     }
 
-    sideBarContent.innerHTML += `
+
+    if (iconElement != "") {
+        sideBarContent.innerHTML += `
         <button onclick="updateContent('${content}', '${icon}', '${name}', '${link}')" id="${link}" class="page-link tw-text-base tw-flex tw-flex-gap-1">
             ${iconElement}
             <div class="">${name}</div>
         </button>
     `
+    }
 }
 
 async function updateContent(path, icon, title, link){
@@ -123,15 +126,11 @@ async function updateContent(path, icon, title, link){
 
 function loadPage(pageLink){
 
-    let item = dataCache['pages'].find(obj => obj.link === pageLink)
+    const item = dataCache['pages'].find(obj => obj.link === pageLink)
 
-    if (!item){
-        item = dataCache['others'].find(obj => obj.link === pageLink)
-
-        if (!item) {
-            console.warn([`Page not found for: ${pageLink}`])
-            return
-        }
+    if (!item) {
+        console.warn([`Page not found for: ${pageLink}`])
+        return
     }
 
     updateContent(item.content, item.icon, item.name, item.link)
