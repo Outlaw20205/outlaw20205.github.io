@@ -127,10 +127,10 @@ function loadPage(pageLink){
 
     if (!item){
         item = dataCache['others'].find(obj => obj.link === pageLink)
-        
+
         if (!item) {
-        console.warn([`Page not found for: ${pageLink}`])
-        return
+            console.warn([`Page not found for: ${pageLink}`])
+            return
         }
     }
 
