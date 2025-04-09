@@ -123,7 +123,7 @@ async function updateContent(path, icon, title, link){
 
 function loadPage(pageLink){
 
-    const item = dataCache['pages'].find(obj => obj.link === pageLink)
+    let item = dataCache['pages'].find(obj => obj.link === pageLink)
 
     if (!item){
         if (!item) {
