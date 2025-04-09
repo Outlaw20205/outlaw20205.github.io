@@ -59,7 +59,7 @@ fetchDB().then((data) => {
     for (let x of data['pages']){
         buildSideBar(x.icon, x.name, x.link, x.content)
     }
-    dataCache = data
+    //dataCache = data
     loadSearchResults(data['pages'])
     loadPage('/about')
 })
