@@ -24,7 +24,7 @@ const md = window.markdownit({
 md.use(centerImagesPlugin)
 md.use(externalLinksPlugin)
 
-let dataCache = {'pages': [], 'other' : []}
+let dataCache = {'pages': []}
 
 /**
  * Fetches the json db
@@ -126,8 +126,13 @@ function loadPage(pageLink){
     const item = dataCache['pages'].find(obj => obj.link === pageLink)
 
     if (!item){
+        if (!item) {
+            item = dataCache['others'].find(obj => obj.link === pageLink)
+        }
+        else {
         console.warn([`Page not found for: ${pageLink}`])
         return
+        }
     }
 
     updateContent(item.content, item.icon, item.name, item.link)
