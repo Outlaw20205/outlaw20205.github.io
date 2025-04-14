@@ -29,6 +29,18 @@
         },
         {
             "icon": "",
+            "name": "Anime & Manga",
+            "link": "/hobbies/anime_manga",
+            "content": "content/hobbies/anime_manga.md"
+        },
+        {
+            "icon": "",
+            "name": "LEGO",
+            "link": "/hobbies/lego",
+            "content": "content/hobbies/lego.md"
+        },
+        {
+            "icon": "",
             "name": "Motorsports",
             "link": "/hobbies/motorsports",
             "content": "content/hobbies/motorsports.md"
@@ -38,6 +50,12 @@
             "name": "Sim Racing",
             "link": "/hobbies/simracing",
             "content": "content/hobbies/sim_racing.md"
+        },
+        {
+            "icon": "",
+            "name": "Travel",
+            "link": "/hobbies/travel",
+            "content": "content/hobbies/travel.md"
         }
     ]
 }
