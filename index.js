@@ -59,7 +59,7 @@ fetchDB().then((data) => {
     for (let x of data['pages']){
         buildSideBar(x.icon, x.name, x.link, x.content)
     }
-    //dataCache = data
+    dataCache = data
     loadSearchResults(data['pages'])
     loadPage('/about')
 })
@@ -78,15 +78,12 @@ function buildSideBar(icon, name, link, content){
         iconElement = `<i class="${icon ?? "bi bi-file-earmark"}"></i>` // bootstrap icon class
     }
 
-
-    if (iconElement != "") {
-        sideBarContent.innerHTML += `
+    sideBarContent.innerHTML += `
         <button onclick="updateContent('${content}', '${icon}', '${name}', '${link}')" id="${link}" class="page-link tw-text-base tw-flex tw-flex-gap-1">
             ${iconElement}
             <div class="">${name}</div>
         </button>
     `
-    }
 }
 
 async function updateContent(path, icon, title, link){
@@ -128,7 +125,7 @@ function loadPage(pageLink){
 
     const item = dataCache['pages'].find(obj => obj.link === pageLink)
 
-    if (!item) {
+    if (!item){
         console.warn([`Page not found for: ${pageLink}`])
         return
     }
