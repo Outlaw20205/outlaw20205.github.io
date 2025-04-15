@@ -12,7 +12,7 @@ Delorean from Back to the Future
 ![Delorean](./assets/images/hobbies/lego/IMG_0610.jpg)
 
 Concorde
-![Concorde](./assets/images/hobbies/lego/IMG_1902.jpg)
+![Concorde](./assets/images/hobbies/lego/IMG_1901.jpg)
 
 Ferrari 488 GTE
 ![Ferrari 488 GTE](./assets/images/hobbies/lego/IMG_2701.jpg)
