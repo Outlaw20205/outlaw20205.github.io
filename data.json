@@ -22,12 +22,6 @@
             "content": "content/hobbies.html"
         },
         {
-            "icon": "bi bi-postcard-fill",
-            "name": "Contact",
-            "link": "/contact",
-            "content": "content/contact.md"
-        },
-        {
             "icon": "",
             "name": "Anime & Manga",
             "link": "/hobbies/anime_manga",
@@ -56,6 +50,12 @@
             "name": "Travel",
             "link": "/hobbies/travel",
             "content": "content/hobbies/travel.md"
+        },
+        {
+            "icon": "bi bi-postcard-fill",
+            "name": "Contact",
+            "link": "/contact",
+            "content": "content/contact.md"
         }
     ]
 }
