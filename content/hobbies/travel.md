@@ -33,6 +33,9 @@ Outside Churchhill Downs
 Gatlinburg at sunrise
 ![Gatlinburg](./assets/images/hobbies/travel/IMG_1471.jpg)
 
+The Bean in Chicago
+![The Bean](./assets/images/hobbies/travel/IMG_1682.jpg)
+
 Road America in Elkhart Lake, WI
 ![Road America](./assets/images/hobbies/travel/IMG_1361.jpg)
 
