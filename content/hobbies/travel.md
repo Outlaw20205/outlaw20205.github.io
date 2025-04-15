@@ -3,7 +3,7 @@
 I've had the opportunity to visit many places in the USA and Canada. Some of the place I have been to are NYC, Mount Rushmore, Toronto, Pikes Peak, the Gulf Shores and other places outside of Missouri. I would have to say my favorite place I've gone to is Toronto and the surrounding area. 
 
 Kirkfield Lift Lock on the Trent-Severn Waterway in Canada
-![Lift Lock 36](./assets/images/hobbies/travel/IMG_1445.jpg)
+![Lift Lock 36](./assets/images/hobbies/travel/LiftLock.jpg)
 
 CN Tower Observation Deck
 ![Billy Bishop Airport](./assets/images/hobbies/travel/IMG_1486.jpg)
