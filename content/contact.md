@@ -1,3 +1,3 @@
 ## Contact
-
-**If you would like to contact me, please email me at: etlawre@siue.edu**
+[LinkedIn](www.linkedin.com/in/ethan-l-b26739350)
+[GitHub](https://github.com/Outlaw20205)
